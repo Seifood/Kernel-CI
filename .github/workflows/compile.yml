@@ -33,7 +33,7 @@ jobs:
             cd kernel/source
             export CROSS_COMPILE=/home/runner/work/Kernel-CI/Kernel-CI/kernel/toolchain/bin/aarch64-linux-android-
             export ARCH=arm64
-            make gki_defconfig_defconfig
+            make zeus_defconfig
             make -j26
 
        - name: Upload Image.gz
